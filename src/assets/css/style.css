@@ -694,10 +694,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: solid 1px #040b14;
 }
 
 .services .icon i {
@@ -706,19 +706,39 @@ section {
   line-height: 0;
 }
 
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #149ddd;
-}
-
 .services .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+}
+
+.services .title2 {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #343a40;
+}
+
+.services .icon-box {
+  margin-bottom: 20px;
+}
+
+.services .icon2 {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+
+.services .icon2-box {
+  margin-bottom: 20px;
 }
 
 .services .title a {
@@ -894,13 +914,6 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
-}
-
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
